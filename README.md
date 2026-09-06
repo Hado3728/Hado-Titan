@@ -1,8 +1,7 @@
 # Hado Titan — 15kg Robowar Combat Robot
 
-A drum-spinner combat robot built for 15kg-category robowar competition, funded through [Hack Club's Forge](https://hackclub.com/forge/) program.
-
-![Assembled concept render](docs/images/preview_assembled_v2.png)
+A drum-spinner combat robot built for 15kg-category robowar competition
+![Assembled concept render (THIS IS THE INSPIRATION MODEL "NITRO")](docs/images/preview_assembled_v2.png)
 
 ## Overview
 
