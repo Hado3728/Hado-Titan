@@ -41,6 +41,7 @@ See [`bom/BOM_hado_titan.xlsx`](bom/BOM_hado_titan.xlsx) for the current priced 
 - **Drive motors:** Zerodrag QPT 2807-1300KV (x2)
 - **Radio:** FlySky FS-i6X (6CH) + FS-iA10B receiver
 - **Battery:** Single 6S LiPo (22.2V), shared across weapon and drive through the 4-in-1 ESC
+- A rough circuit of the electronic connection (AI GENERATED IMAGE) 'circuit-diagram.svg'
 
 Reverse capability was a hard requirement — if the bot topples mid-match, drive needs to work upside down without manual intervention. AM32's documented 3D mode handles this natively, unlike several drone-oriented ESCs evaluated that don't support reverse at all.
 
