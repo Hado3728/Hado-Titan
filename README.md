@@ -2,7 +2,7 @@
 
 A drum-spinner combat robot built for 15kg-category robowar competition, funded through [Hack Club's Forge](https://hackclub.com/forge/) program.
 
-![Assembled concept render](docs/images/preview_assembled.png)
+![Assembled concept render](docs/images/preview_assembled_v2.png)
 
 ## Overview
 
