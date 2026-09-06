@@ -1,4 +1,4 @@
-# Haso Titan — 15kg Robowar Combat Robot
+# Hado Titan — 15kg Robowar Combat Robot
 
 A drum-spinner combat robot built for 15kg-category robowar competition, funded through [Hack Club's Forge](https://hackclub.com/forge/) program.
 
@@ -6,7 +6,7 @@ A drum-spinner combat robot built for 15kg-category robowar competition, funded 
 
 ## Overview
 
-Haso Titan is a fixed-unibody wedge chassis with a belt-driven weapon drum and full-height wheels for invertible driving. Design is inspired by [Nitro](https://forum.bristolbotbuilders.com/t/nitro-13-6kg-fc-drum-spinner/177), a well-documented 13.6kg FC drum spinner from the Bristol Bot Builders community — component classes and construction lessons are adapted from that build, not copied wholesale.
+Hado Titan is a fixed-unibody wedge chassis with a belt-driven weapon drum and full-height wheels for invertible driving. Design is inspired by [Nitro](https://forum.bristolbotbuilders.com/t/nitro-13-6kg-fc-drum-spinner/177), a well-documented 13.6kg FC drum spinner from the Bristol Bot Builders community — component classes and construction lessons are adapted from that build, not copied wholesale.
 
 **Category:** 15kg Robowar
 **Weapon type:** Belt-driven drum spinner, toggled on/off during matches (not continuous)
@@ -39,7 +39,7 @@ Parametric OpenSCAD model — every dimension is a named variable in `cad/common
 
 ## Bill of Materials
 
-See [`bom/BOM_haso_titan_buffered.xlsx`](bom/BOM_haso_titan_buffered.xlsx) for the current priced + weighed component list (electronics, drivetrain, weapon system — excludes chassis and drum body, which are sized once material/thickness are finalized).
+See [`bom/BOM_hado_titan_buffered.xlsx`](bom/BOM_hado_titan_buffered.xlsx) for the current priced + weighed component list (electronics, drivetrain, weapon system — excludes chassis and drum body, which are sized once material/thickness are finalized).
 
 **Sourcing:** Robu.in (batteries, receiver, wheels, bearings, fasteners) + Zerodrag (weapon/drive motors, reversible ESC) — both India-based to avoid import customs delays on the funding timeline.
 
