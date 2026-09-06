@@ -17,35 +17,23 @@ Hado Titan is a fixed-unibody wedge chassis with a belt-driven weapon drum and f
 
 The fixed front/rear wedges corner opponents for control while the drum — toggled on/off rather than run continuously — punishes any contact, whether or not the corner attempt succeeds. This gives the bot an active-defense element even when it isn't fully controlling an engagement.
 
-## Design docs
+## Sketches
 
 | Document | Contents |
 |---|---|
-| [`docs/images/dimensioned_sketch.png`](docs/images/dimensioned_sketch.png) | Top/side/front views with key dimensions and rule-envelope check |
-| [`docs/images/preview_assembled.png`](docs/images/preview_assembled.png) | Assembled concept render |
-| [`docs/images/preview_exploded.png`](docs/images/preview_exploded.png) | Exploded parts view |
-
+| [`docs/images/Side armour sketch.png`](docs/images/Side armour sketch.png) | SKETCH OF THE SIDE VIEW OF THE OUTER SHELL |
 ## CAD
 
-Parametric OpenSCAD model — every dimension is a named variable in `cad/common.scad`, so resizing the drum, forks, or wheels updates the whole assembly.
-
-- `cad/common.scad` — shared parameters + part modules
-- `cad/assembly.scad` — full assembled render
-- `cad/exploded.scad` — exploded view for visualizing individual parts
-- `cad/robot_full_assembly.stl` — combined mesh export
-- `cad/robowar_parts_stl.zip` — each part (base chassis, side panels, top shell, wedges, drum, shroud, forks, wheels, hardware) as its own STL, positioned to reassemble correctly
-
-> CAD is a layout/dimension-checking model, not manufacturing-ready — no fastener holes, wall thickness tuned for machining, or GD&T. Final surfacing happens in Fusion 360/SolidWorks once components are finalized.
+- `cad/ARMOUR.SLDPRT` — 3D Model of the outer armour shell (UNIBODY)
+- `cad/CASE.SLDPRT` — 3D Design of the electronics casing
+- `cad/SPINNING DRUM.SLDPRT` — 3D Model of the Spinning Weapon Drum
+Also includes various models of the electronics for reference purposes
 
 ## Bill of Materials
 
-See [`bom/BOM_hado_titan_buffered.xlsx`](bom/BOM_hado_titan_buffered.xlsx) for the current priced + weighed component list (electronics, drivetrain, weapon system — excludes chassis and drum body, which are sized once material/thickness are finalized).
+See [`bom/BOM_hado_titan.xlsx`](bom/BOM_hado_titan.xlsx) for the current priced + weighed component list 
 
 **Sourcing:** Robu.in (batteries, receiver, wheels, bearings, fasteners) + Zerodrag (weapon/drive motors, reversible ESC) — both India-based to avoid import customs delays on the funding timeline.
-
-Also included:
-- `bom/15kg_weight_budget.xlsx` — component-only weight tracking against the 15kg limit
-- `bom/15kg_dimensioned_BOM.xlsx` — CNC-ready dimensions and bearing specs per part
 
 ## Electronics
 
@@ -64,19 +52,11 @@ Reverse capability was a hard requirement — if the bot topples mid-match, driv
 - Voltage limit: 36V DC/AC max anywhere on the bot — 6S (22.2V nominal) keeps well clear of this
 - No pneumatic weapons, so the tank-weight-multiplier rule doesn't apply
 
-## Roadmap
 
-- [ ] Confirm exact prices/weights on remaining estimated BOM lines
-- [ ] Finalize drum diameter and weapon shaft size against kinetic energy target
-- [ ] Complete manufacturing-ready CAD (Fusion 360/SolidWorks) with fastener holes and material thickness
-- [ ] Machine/fabricate chassis (CNC for drum + shaft + motor mounts, sheet metal + bending for shell panels)
-- [ ] Assemble and bench-test drivetrain + weapon independently before full integration
-- [ ] Weigh-in dry run before competition to confirm under 15kg
 
 ## Team
 
-Built by a first-year BTech CSE student in Bengaluru, India — first combat robotics build.
-
+Built by a first-year BTech CSE student from IIIT Pune
 ## License
 
 MIT — see [LICENSE](LICENSE)
