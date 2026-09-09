@@ -24,7 +24,7 @@ The fixed front/rear wedges corner opponents for control while the drum — togg
 ## CAD
 
 - `cad/ARMOUR FINAL.SLDPRT` — 3D Model of the outer armour shell (UNIBODY)
-- `cad/CASE.SLDPRT` — 3D Design of the electronics casing
+- `cad/CASE UHMWPE CONTAINER.SLDPRT` — 3D Design of the electronics casing
 - `cad/Spinning drum FINAL.SLDPRT` — 3D Model of the Spinning Weapon Drum
 - 'cad/ATTACHMENT LATCHES' - 3D Model of the metal supporting attachments for the CASE and the main CHASSIS 
 Also includes various models of the electronics for reference purposes and split parts
