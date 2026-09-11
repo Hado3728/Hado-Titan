@@ -25,9 +25,9 @@ Also includes various models of the electronics for reference purposes and split
 
 ## Bill of Materials
 
-See [`bom/BOM_hado_titan_v3.xlsx`](bom/BOM_hado_titan_v3.xlsx) for the current priced + weighed component list 
+See [`bom/BOM_hado_titan_v3.xlsx`](bom/BOM_hado_titan_v3.xlsx) for the current priced + weighed component list (Major components are accounted as of now) 
 
-**Sourcing:** Robu.in (batteries, receiver, wheels, bearings, fasteners) + Zerodrag (weapon/drive motors, reversible ESC) — both India-based to avoid import customs delays on the funding timeline.
+**Sourcing:** Robu.in (batteries, receiver, wheels, bearings, fasteners, weapon/drive motors, reversible ESC) — India-based to avoid import customs delays on the funding timeline. I'm still facing some issues in fetching the battery of the specs I intended.
 
 ## Electronics
 
