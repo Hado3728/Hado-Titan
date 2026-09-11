@@ -37,7 +37,7 @@ See [`bom/BOM_hado_titan_v3.xlsx`](bom/BOM_hado_titan_v3.xlsx) for the current p
 - **Battery:** Single GNB 4000mAh 6S1P 22.2V 50C Lipo Battery
 - A rough circuit of the electronic connection (AI GENERATED IMAGE) 'circuit-diagram.svg'
 
-Reverse capability was a hard requirement — if the bot topples mid-match, drive needs to work upside down without manual intervention. AM32's documented 3D mode handles this natively, unlike several drone-oriented ESCs evaluated that don't support reverse at all.
+Reverse capability was a hard requirement — if the bot topples mid-match, drive needs to work upside down without manual intervention.
 
 ## Ruleset compliance
 
