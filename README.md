@@ -16,13 +16,8 @@ Hado Titan is a fixed-unibody wedge chassis with a belt-driven weapon drum and f
 
 The fixed front/rear wedges corner opponents for control while the drum — toggled on/off rather than run continuously — punishes any contact, whether or not the corner attempt succeeds. This gives the bot an active-defense element even when it isn't fully controlling an engagement.
 
-## Sketches
 
-| Document | Contents |
-|---|---|
-| [`docs/images/Side armour sketch.png`](docs/images/Side armour sketch.png) | SKETCH OF THE SIDE VIEW OF THE OUTER SHELL |
 ## CAD
-
 - `cad/CASE UHMWPE CONTAINER.SLDPRT` — 3D Design of the electronics casing
 - `cad/Spinning drum FINAL.SLDPRT` — 3D Model of the Spinning Weapon Drum
 - 'cad/ATTACHMENT LATCHES' - 3D Model of the metal supporting attachments for the CASE and the main CHASSIS 
