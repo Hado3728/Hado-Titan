@@ -23,6 +23,10 @@ The fixed front/rear wedges corner opponents for control while the drum — togg
 - 'cad/ATTACHMENT LATCHES' - 3D Model of the metal supporting attachments for the CASE and the main CHASSIS 
 Also includes various models of the electronics for reference purposes and split parts
 
+##NET DIAGRAM OF THE SHEET METAL WORK FOR THE CASING
+(docs/images/net.png)
+
+
 ## Bill of Materials
 
 See [`bom/BOM_hado_titan_v3.xlsx`](bom/BOM_hado_titan_v3.xlsx) for the current priced + weighed component list (Major components are accounted as of now) 
