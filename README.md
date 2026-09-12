@@ -24,7 +24,7 @@ The fixed front/rear wedges corner opponents for control while the drum — togg
 Also includes various models of the electronics for reference purposes and split parts
 
 ##NET DIAGRAM OF THE SHEET METAL WORK FOR THE CASING
-![NET DIAGRAM](docs/images/net.png)
+![NET DIAGRAM]	(docs/images/net.png)
 
 
 ## Bill of Materials
