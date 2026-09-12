@@ -1,7 +1,7 @@
 ---
 Title: "Hado Titan"
 Author: "Chetan Krishna S"
-Description: "I'm a B.tech CSE student building a battlebot. It is a combat robot with a spinning drum with wedges and forks as the part of it's weaponry"
+Description: "I'm a B.tech CSE student building a battlebot. It is a combat robot with a spinning drum with wedges and forks as the part of it's weaponry. This is my first ever battle bot"
 Created at: "05-09-2026"
 ---
 ## SEPTEMBER 05 : THE IDEA
